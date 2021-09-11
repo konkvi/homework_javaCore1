@@ -11,7 +11,7 @@ public class Worker {
 
     public void start() {
         for (int i = 0; i < 100; i++) {
-            // смоделированна ошибка для 55 таски
+            // смоделированна ошибка для 33 таски
             if (i == 33){
                 errorCallback.onError("An error has occurred for task " + i);
             } else {
